@@ -1,0 +1,149 @@
+/*Caso tenha uma operação matematica no codigo, use () para da prioridade
+a primeira conta que deseja fazer. ex(5+15)/4
+---------------------------------------------------------------------------
+Posso criar uma variavel let/var porém sempre que eu for atualizar ela
+não preciso criar outra let/var apenas usar o nome que foi atribuido a
+ela.
+---------------------------------------------------------------------------
+(==)(!=)Coverte para compara
+(===)(!==)Esse compara o tipo e conteudo
+---------------------------------------------------------------------------
+Apenas um sinal de igual é apenas para variavel, caso for usar em if
+mete 3 iguais ===
+---------------------------------------------------------------------------
+Pode estar criando uma variavel apenas sem nome ex: var/let nomeCompleto;
+E depois chama ela pra atribuir algum item na variavel
+---------------------------------------------------------------------------
+parse/casting = converter
+parseFloat = número inteiro
+Number para não precisar usar o metodo mais dificil
+---------------------------------------------------------------------------
+Uma estrutura condicional é conhecida como estrutura de decisão.
+Elas podem ser dividas em 
+simples=if 
+e 
+composta=if else
+
+var media = 6.5
+simples: if(){
+simples: if(condição){
+opção X   
+o que estiver aqui dentro caso seja verdadeiro será executado
+}
+opção y
+Caso nenhuma das opções dentro do [] seja verdadeira
+vai executar essa parte
+---------------------------------------------------------------------------
+MOD(%) só pega o resto da divisão
+Se de resto 0 ele é par
+se sobrar algo ele é impar
+---------------------------------------------------------------------------
+var numero = 4
+if (numero % 2 === 0){
+console.log("O número é par.")
+}
+---------------------------------------------------------------------------
+if(condição){
+instrução1
+instrução2
+bloco: verdadeiro
+}else{ <<não existe condição apenas else.
+instrução3
+instrução4
+bloco: falso
+}
+instrução5
+não existe condição em if else na parte do else
+a instrução 5 como está fora de if else ela sempre será executada.
+em if else só existe verdadeiro e falso ou a condição é verdadeira ou falsa.
+---------------------------------------------------------------------------
+Posso estar usando if else para coloca um outro if else dentro do primeiro if
+
+If(){
+
+
+else{
+    if{
+    
+    
+    else}
+
+
+}}
+para usar swith case
+Mais usado para quando for repetir alguma tarefa
+
+var ddd = 67
+switch(DDD){
+
+    case 41
+    console.log()
+    break
+    case 67
+    console.log()
+    break
+    case 56
+    console.log()
+    break
+    case 34
+    console.log()
+    break
+    case 99
+    console.log()
+    break
+    default
+    console.log()
+    break
+}
+break para e vai para o próximo
+
+
+---------------------------------------------------------------------------
+Posso usar qualquer uma dessas opções
+Teste de inicio = while
+teste final = do while
+variavel de controle =for
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
