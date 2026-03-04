@@ -99,17 +99,52 @@ break para e vai para o próximo
 
 
 ---------------------------------------------------------------------------
+Laços de repetição
 Posso usar qualquer uma dessas opções
-Teste de inicio = while
-teste final = do while
-variavel de controle =for
+Teste de inicio = while enquanto é verdadeiro continua executando.
+
+-------------------------------------
+teste final = do while C
+-------------------------------------              1Esse espaço só será executado uma vez||2Condição de parada ou de continuidade.|          
+variavel de controle =for Sempre terá 3 espaços (1:Espaço para variavel;2:Espaço determina até quantas vezes vai ser executada.;
+3Espaço de incrimento ou é ++ ou --;)
+--------------------------------------------------
+A diferença do while para o for é que o incrimento fica no final.
+E o while fica mais separado e o for fica mais organizado em apenas uma linha.
+ ---------------------------------------------------------------------------
+x++ aumenta a quantidade. Sempre de um em um, sempre acrescenta uma unidade.
+seria a mesma coisa que x= x+1. Para caso deseja aumentar mais de uma unidade
+siga o padrão x=x+(quantidade que deseja acrescentar.)
 ---------------------------------------------------------------------------
+Variavel tem que fazer sentido para ficar melhor a compreensão.
 ---------------------------------------------------------------------------
+Em função tem o nome e o parametro que pode ser mais de um.
 ---------------------------------------------------------------------------
+No javascript, é sempre bom verificar linha por linha, pra vê se não está faltando algo,
+as vezes você solicitada dois números porem só colocou uma variavel.
 ---------------------------------------------------------------------------
+Tipos de erro e significados:
+indefind = Nada definido.
+Nan = nenhum número
+Null = Significa a mesma coisa, que você não prestou atenção.
 ---------------------------------------------------------------------------
+função é usada para quando você não quer ter que escrever o mesmo codigo novamente,
+podendo coloca um codigo de conta por exemplo 2+2 ou divisão, ai você
+coloca na função e depois só chama ela, ela é boa para não precisar fica repetindo tarefas que são repetitivas.
+Para chama a função.
+Coloque o nome da função verificarNumero(10) e coloca a inteção:()
+funcition Nome = (a,b){
+    conteudo desejado.
+} 
+//a segunda forma de fazer função
+
+nome = (Parametro a, b) =>{
+    conteudo.
+}
 ---------------------------------------------------------------------------
----------------------------------------------------------------------------
+diferença do Var e let
+Var pode ser usado fora da função e o Let não pode, ele é apagado depois que fecha a função.
+E pode estar criando sem coloca Var, colocando só o nome.
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
