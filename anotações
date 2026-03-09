@@ -172,6 +172,7 @@ false  false   false     false
 true   false
 false  true
 ---------------------------------------------------------------------------
+Quando for pedir o número, se tiver dentro do for vai repetir várias vezes, quando é fora pede só uma vez.
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 
@@ -205,5 +206,6 @@ false  true
 
 
 */
+
 
 
