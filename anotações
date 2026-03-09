@@ -150,8 +150,27 @@ A conjunção (&&) é um operador lógico usado em programação (como em Java, 
 Ele significa “E”.
 Ou seja, as duas condições precisam ser verdadeiras para o resultado ser verdadeiro.
 ---------------------------------------------------------------------------
+A Disjunção (||) é um operador lógico usado em linguagens como Java, C e JavaScript.
+Ele significa “OU”.
+Ou seja, basta uma das condições ser verdadeira para o resultado ser verdadeiro.
 ---------------------------------------------------------------------------
+A Negação (!) é um operador lógico usado em linguagens como Java, C e JavaScript.
+Ele serve para inverter o valor lógico.
+Se for true, vira false
+Se for false, vira true
 ---------------------------------------------------------------------------
+. Tabela Verdade
+Demonstra os possíveis resultados dos operadores lógicos.
+
+  A      B      A && B    A || B
+true   true    true      true
+true   false   false     true
+false  true    false     true
+false  false   false     false
+
+  A     !A
+true   false
+false  true
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
@@ -186,3 +205,4 @@ Ou seja, as duas condições precisam ser verdadeiras para o resultado ser verda
 
 
 */
+
