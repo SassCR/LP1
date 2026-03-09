@@ -146,12 +146,16 @@ diferença do Var e let
 Var pode ser usado fora da função e o Let não pode, ele é apagado depois que fecha a função.
 E pode estar criando sem coloca Var, colocando só o nome.
 ---------------------------------------------------------------------------
+A conjunção (&&) é um operador lógico usado em programação (como em Java, C e JavaScript).
+Ele significa “E”.
+Ou seja, as duas condições precisam ser verdadeiras para o resultado ser verdadeiro.
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
+
 
 
 
