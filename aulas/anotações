@@ -1,0 +1,231 @@
+/*Caso tenha uma operação matematica no codigo, use () para da prioridade
+a primeira conta que deseja fazer. ex(5+15)/4
+---------------------------------------------------------------------------
+Posso criar uma variavel let/var porém sempre que eu for atualizar ela
+não preciso criar outra let/var apenas usar o nome que foi atribuido a
+ela.
+---------------------------------------------------------------------------
+(==)(!=)Coverte para compara
+(===)(!==)Esse compara o tipo e conteudo
+---------------------------------------------------------------------------
+Apenas um sinal de igual é apenas para variavel, caso for usar em if
+mete 3 iguais ===
+---------------------------------------------------------------------------
+Pode estar criando uma variavel apenas sem nome ex: var/let nomeCompleto;
+E depois chama ela pra atribuir algum item na variavel
+---------------------------------------------------------------------------
+parse/casting = converter
+parseFloat = número inteiro
+Number para não precisar usar o metodo mais dificil
+---------------------------------------------------------------------------
+Uma estrutura condicional é conhecida como estrutura de decisão.
+Elas podem ser dividas em 
+simples=if 
+e 
+composta=if else
+
+var media = 6.5
+simples: if(){
+simples: if(condição){
+opção X   
+o que estiver aqui dentro caso seja verdadeiro será executado
+}
+opção y
+Caso nenhuma das opções dentro do [] seja verdadeira
+vai executar essa parte
+---------------------------------------------------------------------------
+MOD(%) só pega o resto da divisão
+Se de resto 0 ele é par
+se sobrar algo ele é impar
+---------------------------------------------------------------------------
+var numero = 4
+if (numero % 2 === 0){
+console.log("O número é par.")
+}
+---------------------------------------------------------------------------
+if(condição){
+instrução1
+instrução2
+bloco: verdadeiro
+}else{ <<não existe condição apenas else.
+instrução3
+instrução4
+bloco: falso
+}
+instrução5
+não existe condição em if else na parte do else
+a instrução 5 como está fora de if else ela sempre será executada.
+em if else só existe verdadeiro e falso ou a condição é verdadeira ou falsa.
+---------------------------------------------------------------------------
+Posso estar usando if else para coloca um outro if else dentro do primeiro if
+
+If(){
+
+
+else{
+    if{
+    
+    
+    else}
+
+
+}}
+para usar swith case
+Mais usado para quando for repetir alguma tarefa
+
+var ddd = 67
+switch(DDD){
+
+    case 41
+    console.log()
+    break
+    case 67
+    console.log()
+    break
+    case 56
+    console.log()
+    break
+    case 34
+    console.log()
+    break
+    case 99
+    console.log()
+    break
+    default
+    console.log()
+    break
+}
+break para e vai para o próximo
+
+
+---------------------------------------------------------------------------
+Laços de repetição
+Posso usar qualquer uma dessas opções
+Teste de inicio = while enquanto é verdadeiro continua executando.
+
+-------------------------------------
+teste final = do while C
+-------------------------------------              1Esse espaço só será executado uma vez||2Condição de parada ou de continuidade.|          
+variavel de controle =for Sempre terá 3 espaços (1:Espaço para variavel;2:Espaço determina até quantas vezes vai ser executada.;
+3Espaço de incrimento ou é ++ ou --;)
+--------------------------------------------------
+A diferença do while para o for é que o incrimento fica no final.
+E o while fica mais separado e o for fica mais organizado em apenas uma linha.
+ ---------------------------------------------------------------------------
+x++ aumenta a quantidade. Sempre de um em um, sempre acrescenta uma unidade.
+seria a mesma coisa que x= x+1. Para caso deseja aumentar mais de uma unidade
+siga o padrão x=x+(quantidade que deseja acrescentar.)
+---------------------------------------------------------------------------
+Variavel tem que fazer sentido para ficar melhor a compreensão.
+---------------------------------------------------------------------------
+Em função tem o nome e o parametro que pode ser mais de um.
+---------------------------------------------------------------------------
+No javascript, é sempre bom verificar linha por linha, pra vê se não está faltando algo,
+as vezes você solicitada dois números porem só colocou uma variavel.
+---------------------------------------------------------------------------
+Tipos de erro e significados:
+indefind = Nada definido.
+Nan = nenhum número
+Null = Significa a mesma coisa, que você não prestou atenção.
+---------------------------------------------------------------------------
+função é usada para quando você não quer ter que escrever o mesmo codigo novamente,
+podendo coloca um codigo de conta por exemplo 2+2 ou divisão, ai você
+coloca na função e depois só chama ela, ela é boa para não precisar fica repetindo tarefas que são repetitivas.
+Para chama a função.
+Coloque o nome da função verificarNumero(10) e coloca a inteção:()
+funcition Nome = (a,b){
+    conteudo desejado.
+} 
+//a segunda forma de fazer função
+
+nome = (Parametro a, b) =>{
+    conteudo.
+}
+---------------------------------------------------------------------------
+diferença do Var e let
+Var pode ser usado fora da função e o Let não pode, ele é apagado depois que fecha a função.
+E pode estar criando sem coloca Var, colocando só o nome.
+---------------------------------------------------------------------------
+Quando da erro ele sempre fala a pasta o arquivo e a linha que deu erro.
+---------------------------------------------------------------------------
+Pra criar uma arquivo jason é só usar o npm init -y 
+---------------------------------------------------------------------------
+o comando no terminal cd é pra acessar uma pasta, se eu colocar cd .. ele volta uma pasta.
+dois .. diretorio anterior um . pasta atual.
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
