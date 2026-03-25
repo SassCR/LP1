@@ -190,11 +190,19 @@ PACKLOCK E NEM A PASTA QUE TEM AS DEPENDECIAS SÃO NECESSÁRIAS PARA ENVIAR.
 module.exports = {soma, mul} //Para pode usar essas funçãos em outros arquivos
 nunca esqueça que em module tem que ser com {}
 ---------------------------------------------------------------------------
+Pra criar uma arquivo jason é só usar o npm init -y 
 ---------------------------------------------------------------------------
+o comando no terminal cd é pra acessar uma pasta, se eu colocar cd .. ele volta uma pasta.
+dois .. diretorio anterior um . pasta atual.
 ---------------------------------------------------------------------------
+CSV valores separados por virgula
+também é um arquivo de texto representado pela planilha.
 ---------------------------------------------------------------------------
+o simbolo * quando vai importa ele faz importa tudo.
 ---------------------------------------------------------------------------
+caso algum dia tenha que abrir arquivos gigantes de texto devo usar o sublime text
 ---------------------------------------------------------------------------
+
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
