@@ -32,13 +32,25 @@ export const ehParV2 = (numero) => {
     })
 }
 //V3
-const URl_API = "https://api.isevenapi.xyz/api/iseven/"
+const URL_API = 'https://api.isevenapi.xyz/api/iseven/';
 export const ehParV3 = (numero) => {
-    return new Promise((resolver, rejeitar) => {
-        if (isNaN(numero))
-            rejeitar("Numéro invalido");
-        else {
-
-        }
-    })
+  return new Promise((resolver, rejeitar) => {
+    if (isNaN(numero))
+      rejeitar('[ERRO]: Número inválido');
+    else {
+      //fetch(URL_API + numero)
+      fetch(`${URL_API}${numero}`)
+        .then((resposta) => {
+          resposta.json()
+            .then((resultado) => {
+              //const iseven = resultado.iseven;
+              const { iseven } = resultado;
+              resolver(iseven);
+            })
+        })
+        .catch((erro) => {
+          rejeitar(erro)
+        })
+    }
+  })
 }
