@@ -204,6 +204,11 @@ caso algum dia tenha que abrir arquivos gigantes de texto devo usar o sublime te
 ---------------------------------------------------------------------------
 caso caia no catch ele já indica erro.
 ---------------------------------------------------------------------------
+Para criar um vetor é var = new array(5) assim ela começara vazia
+criando ela com {} ela precisa ser ou preenchida ou vazia.
+ let vetor1 = [] Dessa maneira é apenas em java em outras linguagens ela não funciona muito bem
+
+o vetor sempre vai começar do 0 porém, porém ele já é uma unidade em si então caso seja 0,1,2. na verdade ele tem 3 unidades.
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
