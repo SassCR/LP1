@@ -210,7 +210,11 @@ criando ela com {} ela precisa ser ou preenchida ou vazia.
 
 o vetor sempre vai começar do 0 porém, porém ele já é uma unidade em si então caso seja 0,1,2. na verdade ele tem 3 unidades.
 ---------------------------------------------------------------------------
+front é tudo que é visivel para o usuario, backend é o que o usuario não vê.
 ---------------------------------------------------------------------------
+Sobre apis:
+get é para fazer requisição.
+
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
