@@ -10,16 +10,16 @@ const porta = 3000
 
 //CRUD de Pessoas/Produtos/Fotos 
 //C=Create - Criar/Cadastrar foto/pessoa.(POST)
-//R = Read - Ler/Puxar amizades/pessoas.(GET)
+//R = Read - Ler/Puxar amizades/pessoas.(GET).
 //U = UPDATE - Atualizar dados de uma postagem/pessoa.(PUT/PATCH)
 //D = DELETE - Remover uma pessoa/foto/post.(DELETE)
 
-
+//api.get ele só vai aceitar ler e puxar informações.
 
 api.get("/Status", (req, res) => { //req= requisição. res= resposta, no / Precisa ter algo para localizar a API na localHost.
     res.send("API tá on.")//Enviando uma resposta usando o res..
 })
 
-api.listen(porta, () => {
+api.listen(porta, () => { //Eu posso colocar apenas o número da porta sem a necessidade de criar uma variavel.
     console.log(`API tá rodando na porta ${porta}`);
 })

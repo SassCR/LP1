@@ -6,3 +6,7 @@ npm i express
 
 # instalando modemon (Opcional)
 npm i nodemon
+
+# Executando com o nodemon
+nodemon index.js
+OU
