@@ -1,6 +1,7 @@
 const express = require("express")
 const api = express()
-const porta = 3000
+api.use(express.json());
+const porta = 13957
 //IPv6 é todo estranho
 //127.0.0.1:3000 ip de loopback
 
@@ -14,8 +15,46 @@ const porta = 3000
 //U = UPDATE - Atualizar dados de uma postagem/pessoa.(PUT/PATCH)
 //D = DELETE - Remover uma pessoa/foto/post.(DELETE)
 
-//api.get ele só vai aceitar ler e puxar informações.
 
+
+
+let pessoas = [
+    {nome: "João", idade: 19},
+    {nome: "Maria", idade: 23},
+    {nome: "Pedro", idade: 65},
+    {nome: "Amanda", idade: 34}
+]
+
+//---------------------------------------------------CRUD pessoas -----------------------------
+//Read do CRUD
+api.get('/pessoa', (requisicao, resposta) => {
+resposta.send(pessoas);
+})
+//Create do CRUD                                 //Requisição é o usuario que envia, resposta é quando ele solicita algo
+api.post('/pessoa', (requisicao, resposta) => { //O primeiro sempre será requisição e o outro resposta, não importa o nome, só que sempre será assim.
+   //capturando dados enviados na requisição.
+    const novaPessoa = requisicao.body;
+    //na linha 37 estamos fazendo uma verificação para saber se o usuario ao fazer a requisição enviou nome e a idade da pessoa.
+    if(!novaPessoa.nome || !novaPessoa.idade){
+        return resposta.send("ERRO! Informe o nome e a idade.")
+    }
+    //Caso tenha enviado tudo certinho vai executar a linha 41 em diante.
+    //adicionando a pessoa no vetor
+    pessoas.push(novaPessoa);
+    resposta.send("SUCESSO! Pessoa cadastrada!")
+})
+//Delete do CRUD
+api.delete("/pessoa", (requisicao, resposta)=> {
+    const pessoaParaDeletar = requisicao.body
+    //simulando que as pessoas tem ID no BD (Vetor pessoas)
+    if(!pessoaParaDeletar.id){
+        return resposta.send("ERRO! Informe o ID!")
+    }
+    //Removendo do vetor pessoa a pessoa do indice passado como ID
+    pessoas.splice(pessoaParaDeletar.id, 1)//Esse comando remover coisas do vetor
+    resposta.send("SUCESSO! Pessoa removida!")
+})
+//api.get ele só vai aceitar ler e puxar informações.
 api.get("/Status", (req, res) => { //req= requisição. res= resposta, no / Precisa ter algo para localizar a API na localHost.
     res.send("API tá on.")//Enviando uma resposta usando o res..
 })
